@@ -1,4 +1,4 @@
-#WAP to find area of a circle, a rectangle and a triangle, using concept of function overloading.
+// #WAP to find area of a circle, a rectangle and a triangle, using concept of function overloading.
 #include<bits/stdc++.h>
 using namespace std;
 int area(int);
@@ -12,6 +12,8 @@ int main()
         cin>>r;
         cin>>l>>b;
         cin>>base>>height;
+
+        
         cout<<"\nArea of circle is "<<area(r);
         cout<<"\nArea of rectangle is "<<area(l,b);
     cout<<"\nArea of triangle is "<<area(base,height);
